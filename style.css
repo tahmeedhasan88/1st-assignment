@@ -1,3 +1,27 @@
+.raleway{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.raleway-tp{
+  font-family: "Raleway", sans-serif;
+  font-size: 4em;
+  font-style: normal;
+}
+
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  color: #4E47FF;
+}
+
+
+
+
 ul li{list-style: none;}
 .btn-color{
     background-color: #4E47FF;
@@ -7,8 +31,7 @@ ul li{list-style: none;}
     border-radius: 10px;
     border-style: none;
 }
-.logo{color: #4E47FF;
-font-weight: 600;}
+
 
 .navbar{
     display: flex;
@@ -40,16 +63,85 @@ height: 600px;}
 .text{display: flex;
 flex-direction: column;
 justify-content: right;
-align-items: right;
-margin: 100px 100px;
-padding-top: 100px 100px;}
+align-items: right;}
 
-.presentation{background-image: url(images/wc-mini.png);
-height: 100px;
-width: 100px;}
+.presentation{
+   margin: 50px 50px;
+padding:100px 100px;
+height: 200px; 
+width: 200px;
+}
 
 .mn{
     display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 100px;
+    
+}
+
+.presentation img{
+   border-radius: 40px;
+  height: 328px; 
+  width: 403px;
+}
+
+.Score-box{
+    border-radius: 15px;
+    height: 230px;
+    width: 1140px;
+    background-color: #E6E6FA;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.scores{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.big{
+    color: #4E47FF;
+    font-family: "Inter", sans-serif;
+    font-size: 4em;
+    margin-bottom: 0%;
+
+}
+
+.mini{
+    margin-top: 0%;
+}
+
+.review-box{
+    width: 1140px;
+    height: 342px;
+    margin:auto;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.review1{
+    height: 243px;
+    width: 366px;
+    background-color: #ffffff;
+}
+
+.round{border-radius: 50px;}
+
+.reviews{
+    display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 30px;
+    border-radius: 10px;
+    margin-top: 50px;
 }
