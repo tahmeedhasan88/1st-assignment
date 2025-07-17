@@ -190,3 +190,78 @@ border-style: none;}
     width: 500px;
 }
 
+
+
+/* media query */
+
+@media screen and (max-width: 414px) {
+.raleway-tp{
+    padding: 10px 70px;
+    font-size:2.5rem;
+}
+.upper {
+    padding: 10px 0px;
+}
+.mn {flex-direction: column;
+}
+.text {
+    padding: 20px;
+}
+.presentation{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+.Score-box{
+    width: 16.5rem;
+    height: 28.5rem;
+    margin-right: px;
+}
+.scores{
+    flex-direction: column;
+    gap: 5px;
+}
+.big{font-size: 2.5rem;}
+.reviews{
+    flex-direction: column;
+    gap: 0px;
+    width: 100%;
+    margin-top: 10px;
+}
+.review-box{margin: 20px;
+width: 16.5rem;}
+.review1{width: 100%;
+margin-top: 5px;}
+.Section{flex-direction: column;
+width:16.5rem ;
+margin-top: 10px;
+gap: 10px;}
+.some-text{width:100%;
+padding:5px
+margin-top: 10px;
+height: 10rem;  
+
+}
+.some-text h1 {
+    font-size: 2rem;
+    width: 100%;
+    padding-bottom: 5px;
+}
+.form{
+    width: 100%;
+    margin: auto;
+    padding-left: 20px;
+}
+.cstm{
+    height: 1.5rem;
+    width: 17rem;
+}
+.submit{
+    height: 2rem;
+    width: 18.5rem;
+    margin-bottom: 80px;
+}
+.area{width: 17rem;
+height: 4rem;}
+
+}
