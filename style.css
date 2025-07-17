@@ -189,6 +189,17 @@ border-style: none;}
     height: 200px;
     width: 500px;
 }
+.footer{
+    font-family: "Inter", sans-serif;
+    margin-top: 80px;
+    padding: auto;
+    font-weight: 700;
+    color: #4E47FF
+}
+
+.mn-footer{
+    margin-top: 150px;
+} 
 
 
 
@@ -209,9 +220,15 @@ border-style: none;}
 }
 .presentation{
     width: 100%;
-    padding: 10px;
+    padding:0px ;
     margin-bottom: 100px;
 }
+
+.presentation img {
+padding-right: 10px;
+}
+
+
 .Score-box{
     width: 16.5rem;
     height: 28.5rem;
@@ -263,5 +280,8 @@ height: 10rem;
 }
 .area{width: 17rem;
 height: 4rem;}
+
+.mn-footer{margin-left: 60px;
+padding:auto}
 
 }
